@@ -957,6 +957,6 @@ reslove a dependency
 
 - ```sudo -u www-data composer require 'drupal/jquery_ui_accordion:^1.1'```
 - ```drush en -y jquery_ui_accordion```
-
+- I helped
 
 
