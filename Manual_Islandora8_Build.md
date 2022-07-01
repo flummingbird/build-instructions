@@ -273,8 +273,15 @@ note: you may need this command if like me you had to edit cantaloupe.service se
 >\q
 >```
 
-first 
+frist check that you mnt point is still working
+
+- ```ls /mnt/hgfs/shared```
+
+if no files are listed of the folder is not found run this:
+
 - ```sudo vmhgfs-fuse .host:/ /mnt/hgfs/ -o allow_other -o uid=1000```
+
+otherwise continue with this step if the files exist.
 
 - ```sudo sh /mnt/hgfs/shared/fedora-config.sh```
 
