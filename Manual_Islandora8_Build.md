@@ -695,7 +695,9 @@ then get : https://dlcdn.apache.org/karaf/4.3.3/apache-karaf-4.3.3.tar.gz
 - ```sudo chmod 644 /opt/karaf/etc/org.pos4j.pax.logging.cfg```
 
 - ```sudo su```
-```sudo echo '#!/bin/sh \nexport JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64"' >> /opt/karaf/bin/setenv```
+
+**NO SUCH FILE OR DIRECTORY { **
+- ```sudo echo '#!/bin/sh \nexport JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64"' >> /opt/karaf/bin/setenv```
 
 (CTL-d) #to exit from root account
 
@@ -735,8 +737,9 @@ If you're not sure whether or not it's running, you can always run:
 - ```sudo systemctl start karaf```
 - ```sudo systemctl status karaf```
 - ```q```
-
-(to quit type q)
+- (to quit type q)
+- 
+**STILL NO FILE EXISTS }**
 
 ### Alpaca
 
